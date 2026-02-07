@@ -2,7 +2,7 @@ python -m pip install -U torch torchvision torchaudio
 
 python -m pip install -U transformers datasets peft accelerate tqdm sentencepiece safetensors
 
-have a training_data.jsonl where each json line has a input and output section like
+Have a training_data.jsonl where each json line has a input and output section like
 
 {"input": "GoodBye", "output": "Bye"}
 
